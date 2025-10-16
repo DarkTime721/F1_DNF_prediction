@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-import xgboost as xg
 
 model_rf = joblib.load('rf_model.pkl')
 label_enc = joblib.load('label_encoder.pkl')
